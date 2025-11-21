@@ -1,0 +1,26 @@
+Nov 21 08:34:28.915 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 08:34:28.915 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35847.
+Nov 21 08:34:28.921 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 08:34:28.922 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips 
+Nov 21 08:34:28.922 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips
+Nov 21 08:34:28.922 HYPERVISOR: exec_cmd: nio_bridge create Hub3 
+Nov 21 08:35:16.061 HYPERVISOR: exec_cmd: nio create_udp udp-38dd9854-ecc0-4c2d-a1fe-9699f15ab1c4 10009 127.0.0.1 10008 
+Nov 21 08:35:16.061 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-38dd9854-ecc0-4c2d-a1fe-9699f15ab1c4 
+Nov 21 08:35:23.496 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub3 udp-38dd9854-ecc0-4c2d-a1fe-9699f15ab1c4 
+Nov 21 08:35:23.504 HYPERVISOR: exec_cmd: nio delete udp-38dd9854-ecc0-4c2d-a1fe-9699f15ab1c4 
+Nov 21 08:35:26.037 HYPERVISOR: exec_cmd: nio create_udp udp-682322e7-4f94-4dc4-a1d5-e05483bcca69 10009 127.0.0.1 10008 
+Nov 21 08:35:26.038 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-682322e7-4f94-4dc4-a1d5-e05483bcca69 
+Nov 21 08:35:50.701 HYPERVISOR: exec_cmd: nio create_udp udp-dc81cf51-9b73-48d2-a2cc-55b6548ad4f6 10033 127.0.0.1 10032 
+Nov 21 08:35:50.702 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-dc81cf51-9b73-48d2-a2cc-55b6548ad4f6 
+Nov 21 09:31:37.786 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub3 udp-682322e7-4f94-4dc4-a1d5-e05483bcca69 
+Nov 21 09:31:37.797 HYPERVISOR: exec_cmd: nio delete udp-682322e7-4f94-4dc4-a1d5-e05483bcca69 
+Nov 21 09:32:04.065 HYPERVISOR: exec_cmd: nio create_udp udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 10009 127.0.0.1 10008 
+Nov 21 09:32:04.065 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub3 udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 
+Nov 21 09:54:08.530 HYPERVISOR: exec_cmd: nio bind_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 capture 
+Nov 21 09:54:08.530 HYPERVISOR: exec_cmd: nio setup_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 en10mb /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/captures/R7_FastEthernet00_to_Hub3_Ethernet0.pcap 
+Nov 21 09:59:17.953 HYPERVISOR: exec_cmd: nio unbind_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 
+Nov 21 09:59:22.830 HYPERVISOR: exec_cmd: nio bind_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 capture 
+Nov 21 09:59:22.830 HYPERVISOR: exec_cmd: nio setup_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 en10mb /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/captures/R7_FastEthernet00_to_Hub3_Ethernet0.pcap 
+Nov 21 10:00:07.451 HYPERVISOR: exec_cmd: nio unbind_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 
+Nov 21 10:00:10.649 HYPERVISOR: exec_cmd: nio bind_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 capture 
+Nov 21 10:00:10.650 HYPERVISOR: exec_cmd: nio setup_filter udp-c1385453-4954-4eaf-9af5-0ecfa652ee9f 2 en10mb /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/captures/R7_FastEthernet00_to_Hub3_Ethernet0.pcap 

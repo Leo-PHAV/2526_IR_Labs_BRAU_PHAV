@@ -1,0 +1,58 @@
+Nov 21 08:34:19.022 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 08:34:19.022 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34301.
+Nov 21 08:34:19.028 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 08:34:19.029 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips 
+Nov 21 08:34:19.029 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips
+Nov 21 08:34:19.030 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/f467f372-fa7b-45af-b289-392ddaad9703 
+Nov 21 08:34:19.030 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/f467f372-fa7b-45af-b289-392ddaad9703
+Nov 21 08:34:19.030 HYPERVISOR: exec_cmd: vm create R6 6 c3600 
+Nov 21 08:34:19.030 VM: VM R6 created.
+Nov 21 08:34:19.031 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+Nov 21 08:34:19.031 HYPERVISOR: exec_cmd: c3600 get_mac_addr R6 
+Nov 21 08:34:19.032 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:34:19.032 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:34:19.033 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x604f5184 
+Nov 21 08:34:19.033 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Nov 21 08:34:19.034 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:34:19.034 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 NM-1FE-TX 
+Nov 21 08:34:19.034 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:34:19.034 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-1FE-TX 
+Nov 21 08:34:19.035 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:34:19.035 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 NM-1FE-TX 
+Nov 21 08:34:19.035 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:34:19.035 HYPERVISOR: exec_cmd: vm slot_add_binding R6 3 0 NM-1FE-TX 
+Nov 21 08:34:19.149 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:34:34.229 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:34:35.084 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:34:37.227 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:34:57.680 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:35:15.830 HYPERVISOR: exec_cmd: nio create_udp udp-dcfbd656-806b-4113-b903-56c575580e57 10010 127.0.0.1 10011 
+Nov 21 08:35:16.047 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-dcfbd656-806b-4113-b903-56c575580e57 
+Nov 21 08:35:16.048 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:35:23.490 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:35:23.491 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R6 0 0 
+Nov 21 08:35:23.493 HYPERVISOR: exec_cmd: nio delete udp-dcfbd656-806b-4113-b903-56c575580e57 
+Nov 21 08:35:26.012 HYPERVISOR: exec_cmd: nio create_udp udp-0c8ea955-67dd-4d37-805c-807445d218c2 10010 127.0.0.1 10011 
+Nov 21 08:35:26.014 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-0c8ea955-67dd-4d37-805c-807445d218c2 
+Nov 21 08:35:26.015 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:36:04.214 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 21 08:36:04.215 HYPERVISOR: exec_cmd: vm set_ghost_file R6 /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/c3640-jk9s-mz.124-16.image-128.ghost 
+Nov 21 08:36:04.215 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 08:36:04.216 HYPERVISOR: exec_cmd: vm set_config R6 configs/i6_startup-config.cfg 
+Nov 21 08:36:04.216 HYPERVISOR: exec_cmd: vm start R6 
+Nov 21 08:36:34.438 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 21 09:31:37.765 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 09:31:37.766 HYPERVISOR: exec_cmd: vm slot_disable_nio R6 0 0 
+Nov 21 09:31:37.781 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R6 0 0 
+Nov 21 09:31:37.782 HYPERVISOR: exec_cmd: nio delete udp-0c8ea955-67dd-4d37-805c-807445d218c2 
+Nov 21 09:31:43.145 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:31:49.486 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:31:54.222 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:31:58.722 HYPERVISOR: exec_cmd: nio create_udp udp-4d1a1052-ffe3-4a1d-9f32-c45bf4429fba 10002 127.0.0.1 10003 
+Nov 21 09:31:58.724 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-4d1a1052-ffe3-4a1d-9f32-c45bf4429fba 
+Nov 21 09:31:58.724 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 21 09:31:58.725 HYPERVISOR: exec_cmd: vm slot_enable_nio R6 0 0 
+Nov 21 09:32:30.947 HYPERVISOR: exec_cmd: vm set_ios R6 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:32:34.741 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 21 09:32:34.743 HYPERVISOR: exec_cmd: vm set_ghost_file R6 /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/c3640-jk9s-mz.124-16.image-128.ghost 
+Nov 21 09:32:34.744 HYPERVISOR: exec_cmd: vm get_status R6 

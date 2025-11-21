@@ -1,0 +1,57 @@
+Nov 21 07:21:37.869 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 07:21:37.869 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 46531.
+Nov 21 07:21:37.874 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 07:21:37.875 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips 
+Nov 21 07:21:37.875 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips
+Nov 21 07:21:37.875 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/7896222d-f759-4a17-9ef0-b09a4895b1e3 
+Nov 21 07:21:37.875 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/7896222d-f759-4a17-9ef0-b09a4895b1e3
+Nov 21 07:21:37.875 HYPERVISOR: exec_cmd: vm create R2 2 c3600 
+Nov 21 07:21:37.875 VM: VM R2 created.
+Nov 21 07:21:37.876 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Nov 21 07:21:37.876 HYPERVISOR: exec_cmd: c3600 get_mac_addr R2 
+Nov 21 07:21:37.876 HYPERVISOR: exec_cmd: vm set_ios R2 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 07:21:37.877 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:21:37.877 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x604f5184 
+Nov 21 07:21:37.877 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 NM-1FE-TX 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:21:37.878 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Nov 21 07:21:37.879 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:21:37.879 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 NM-1FE-TX 
+Nov 21 07:21:37.961 HYPERVISOR: exec_cmd: vm set_ios R2 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 07:22:36.392 HYPERVISOR: exec_cmd: vm set_ios R2 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 07:24:46.498 HYPERVISOR: exec_cmd: nio create_udp udp-54a12fa9-540e-4539-9d82-59e3e7a62dee 10006 127.0.0.1 10007 
+Nov 21 07:24:46.710 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-54a12fa9-540e-4539-9d82-59e3e7a62dee 
+Nov 21 07:24:46.711 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:25:11.223 HYPERVISOR: exec_cmd: nio create_udp udp-c8a1f875-3b5b-42d3-8dbf-236126b20b4a 10018 127.0.0.1 10019 
+Nov 21 07:25:11.225 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-c8a1f875-3b5b-42d3-8dbf-236126b20b4a 
+Nov 21 07:25:11.226 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:28:59.415 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:28:59.416 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x0 
+Nov 21 07:28:59.417 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:28:59.417 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:28:59.418 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Nov 21 07:28:59.419 HYPERVISOR: exec_cmd: vm start R2 
+Nov 21 07:29:19.733 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:29:19.734 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R2 0 
+Nov 21 07:29:29.838 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 21 07:29:29.852 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:29:29.852 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x604f3e14 
+Nov 21 07:29:29.853 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+Nov 21 07:29:32.895 HYPERVISOR: exec_cmd: vm cpu_usage R2 0 
+Nov 21 07:29:32.896 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:29:32.896 HYPERVISOR: exec_cmd: vm stop R2 
+Nov 21 07:29:33.021 VM: VM R2 shutdown.
+Nov 21 07:29:33.021 HYPERVISOR: exec_cmd: vm extract_config R2 
+Nov 21 07:30:30.614 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:30:30.631 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x6059c5a0 
+Nov 21 07:30:38.675 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 21 07:30:38.676 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/c3640-jk9s-mz.124-16.image-128.ghost 
+Nov 21 07:30:38.676 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 07:30:38.677 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Nov 21 07:30:38.677 HYPERVISOR: exec_cmd: vm start R2 
+Nov 21 08:12:36.059 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 21 08:12:36.080 HYPERVISOR: exec_cmd: vm set_idle_pc_online R2 0 0x604f5184 

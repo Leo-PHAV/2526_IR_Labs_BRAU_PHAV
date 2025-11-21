@@ -1,0 +1,19 @@
+Nov 21 08:34:25.948 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 08:34:25.948 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45365.
+Nov 21 08:34:25.953 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 08:34:25.953 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips 
+Nov 21 08:34:25.954 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips
+Nov 21 08:34:25.954 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Nov 21 08:35:08.083 HYPERVISOR: exec_cmd: nio create_udp udp-323c0a46-b0dc-4fe8-ab2e-1235f31f8b51 10000 127.0.0.1 10001 
+Nov 21 08:35:08.083 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-323c0a46-b0dc-4fe8-ab2e-1235f31f8b51 
+Nov 21 08:35:32.798 HYPERVISOR: exec_cmd: nio create_udp udp-5f81d489-95fe-4c40-958b-c05a163a01f4 10017 127.0.0.1 10016 
+Nov 21 08:35:32.799 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-5f81d489-95fe-4c40-958b-c05a163a01f4 
+Nov 21 08:35:42.523 HYPERVISOR: exec_cmd: nio create_udp udp-76acd9d2-ce68-40cc-9090-8b7be936317d 10025 127.0.0.1 10024 
+Nov 21 08:35:42.524 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-76acd9d2-ce68-40cc-9090-8b7be936317d 
+Nov 21 09:31:18.736 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub1 udp-323c0a46-b0dc-4fe8-ab2e-1235f31f8b51 
+Nov 21 09:31:18.758 HYPERVISOR: exec_cmd: nio delete udp-323c0a46-b0dc-4fe8-ab2e-1235f31f8b51 
+Nov 21 09:32:00.935 HYPERVISOR: exec_cmd: nio create_udp udp-de4c8e7d-5b94-41fb-a3de-0b2005c52449 10005 127.0.0.1 10004 
+Nov 21 09:32:00.936 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-de4c8e7d-5b94-41fb-a3de-0b2005c52449 
+Nov 21 09:51:43.466 HYPERVISOR: exec_cmd: nio bind_filter udp-de4c8e7d-5b94-41fb-a3de-0b2005c52449 2 capture 
+Nov 21 09:51:43.466 HYPERVISOR: exec_cmd: nio setup_filter udp-de4c8e7d-5b94-41fb-a3de-0b2005c52449 2 en10mb /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/captures/R5_FastEthernet00_to_Hub1_Ethernet0.pcap 
+Nov 21 09:54:05.841 HYPERVISOR: exec_cmd: nio unbind_filter udp-de4c8e7d-5b94-41fb-a3de-0b2005c52449 2 

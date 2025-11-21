@@ -1,0 +1,18 @@
+Nov 21 07:21:45.279 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 07:21:45.279 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58923.
+Nov 21 07:21:45.285 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 07:21:45.286 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips 
+Nov 21 07:21:45.286 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips
+Nov 21 07:21:45.286 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Nov 21 07:25:11.240 HYPERVISOR: exec_cmd: nio create_udp udp-71642d3e-543b-4836-9650-11ef44966e82 10017 127.0.0.1 10016 
+Nov 21 07:25:11.240 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-71642d3e-543b-4836-9650-11ef44966e82 
+Nov 21 07:25:14.627 HYPERVISOR: exec_cmd: nio create_udp udp-65afc224-aa6d-4764-991d-a83bfcb98eb9 10021 127.0.0.1 10020 
+Nov 21 07:25:14.627 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-65afc224-aa6d-4764-991d-a83bfcb98eb9 
+Nov 21 07:25:23.735 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub1 udp-65afc224-aa6d-4764-991d-a83bfcb98eb9 
+Nov 21 07:25:23.752 HYPERVISOR: exec_cmd: nio delete udp-65afc224-aa6d-4764-991d-a83bfcb98eb9 
+Nov 21 07:25:30.254 HYPERVISOR: exec_cmd: nio create_udp udp-59c02fcd-908a-4e9e-9a40-d6b98d083282 10025 127.0.0.1 10024 
+Nov 21 07:25:30.255 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-59c02fcd-908a-4e9e-9a40-d6b98d083282 
+Nov 21 07:25:39.059 HYPERVISOR: exec_cmd: nio create_udp udp-ff9e86a9-2eb7-4bd2-99f0-c23089520390 10031 127.0.0.1 10030 
+Nov 21 07:25:39.060 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-ff9e86a9-2eb7-4bd2-99f0-c23089520390 
+Nov 21 08:11:53.395 HYPERVISOR: exec_cmd: nio create_udp udp-9e1f3815-60b5-46f1-ad56-7b0094f5cea0 10045 127.0.0.1 10044 
+Nov 21 08:11:53.395 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-9e1f3815-60b5-46f1-ad56-7b0094f5cea0 

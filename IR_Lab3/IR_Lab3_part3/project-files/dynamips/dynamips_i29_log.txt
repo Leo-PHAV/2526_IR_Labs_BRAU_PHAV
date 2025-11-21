@@ -1,0 +1,34 @@
+Nov 21 09:32:11.878 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 09:32:11.878 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34957.
+Nov 21 09:32:11.883 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 09:32:11.884 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips 
+Nov 21 09:32:11.884 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips
+Nov 21 09:32:11.884 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/f290b6da-73ce-4bf4-a981-cb43d50c27b8 
+Nov 21 09:32:11.884 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/f290b6da-73ce-4bf4-a981-cb43d50c27b8
+Nov 21 09:32:11.885 HYPERVISOR: exec_cmd: vm create R8 8 c3600 
+Nov 21 09:32:11.885 VM: VM R8 created.
+Nov 21 09:32:11.886 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Nov 21 09:32:11.886 HYPERVISOR: exec_cmd: c3600 get_mac_addr R8 
+Nov 21 09:32:11.887 HYPERVISOR: exec_cmd: vm set_ios R8 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:32:11.887 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:11.887 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x604f5184 
+Nov 21 09:32:11.887 HYPERVISOR: exec_cmd: vm set_nvram R8 256 
+Nov 21 09:32:11.888 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:11.888 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 0 NM-1FE-TX 
+Nov 21 09:32:11.888 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:11.888 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 NM-1FE-TX 
+Nov 21 09:32:11.889 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:11.889 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 NM-1FE-TX 
+Nov 21 09:32:11.889 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:11.889 HYPERVISOR: exec_cmd: vm slot_add_binding R8 3 0 NM-1FE-TX 
+Nov 21 09:32:12.028 HYPERVISOR: exec_cmd: vm set_ios R8 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:32:14.912 HYPERVISOR: exec_cmd: vm set_ios R8 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 09:32:20.606 HYPERVISOR: exec_cmd: nio create_udp udp-f1c79bab-343d-49a2-8983-dd4c7a53f23f 10014 127.0.0.1 10015 
+Nov 21 09:32:20.820 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-f1c79bab-343d-49a2-8983-dd4c7a53f23f 
+Nov 21 09:32:20.820 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:34.766 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Nov 21 09:32:34.766 HYPERVISOR: exec_cmd: vm set_ghost_file R8 /home/leo-phav/GNS3/projects/IR_Lab3_part3/project-files/dynamips/c3640-jk9s-mz.124-16.image-128.ghost 
+Nov 21 09:32:34.767 HYPERVISOR: exec_cmd: vm get_status R8 
+Nov 21 09:32:34.768 HYPERVISOR: exec_cmd: vm set_config R8 configs/i8_startup-config.cfg 
+Nov 21 09:32:34.768 HYPERVISOR: exec_cmd: vm start R8 
+Nov 21 09:33:04.984 HYPERVISOR: exec_cmd: vm extract_config R8 

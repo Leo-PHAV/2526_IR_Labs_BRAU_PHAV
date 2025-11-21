@@ -1,0 +1,57 @@
+Nov 21 08:11:41.586 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Nov 21 08:11:41.586 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55517.
+Nov 21 08:11:41.590 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 08:11:41.591 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips 
+Nov 21 08:11:41.591 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips
+Nov 21 08:11:41.591 HYPERVISOR: exec_cmd: hypervisor working_dir /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/f1dcaf44-b512-40f4-8570-96b0bd0474ab 
+Nov 21 08:11:41.591 GENERAL: working_dir=/home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/f1dcaf44-b512-40f4-8570-96b0bd0474ab
+Nov 21 08:11:41.591 HYPERVISOR: exec_cmd: vm create R4 4 c3600 
+Nov 21 08:11:41.592 VM: VM R4 created.
+Nov 21 08:11:41.592 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5011 
+Nov 21 08:11:41.593 HYPERVISOR: exec_cmd: c3600 get_mac_addr R4 
+Nov 21 08:11:41.594 HYPERVISOR: exec_cmd: vm set_ios R4 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:11:41.595 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:41.595 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x6059c5a0 
+Nov 21 08:11:41.596 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Nov 21 08:11:41.597 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:41.597 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 NM-1FE-TX 
+Nov 21 08:11:41.597 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:41.597 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1FE-TX 
+Nov 21 08:11:41.598 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:41.599 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1FE-TX 
+Nov 21 08:11:41.599 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:41.599 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 NM-1FE-TX 
+Nov 21 08:11:41.730 HYPERVISOR: exec_cmd: vm set_ios R4 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:11:43.564 HYPERVISOR: exec_cmd: vm set_ios R4 /home/leo-phav/GNS3/images/IOS/c3640-jk9s-mz.124-16.image 
+Nov 21 08:11:50.293 HYPERVISOR: exec_cmd: nio create_udp udp-b7e42257-4892-416b-8d2e-4c22b6545d23 10042 127.0.0.1 10043 
+Nov 21 08:11:50.508 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-b7e42257-4892-416b-8d2e-4c22b6545d23 
+Nov 21 08:11:50.509 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:53.372 HYPERVISOR: exec_cmd: nio create_udp udp-68569196-f298-41ed-b1ac-7731721a243e 10046 127.0.0.1 10047 
+Nov 21 08:11:53.375 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-68569196-f298-41ed-b1ac-7731721a243e 
+Nov 21 08:11:53.376 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:59.238 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:59.239 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x0 
+Nov 21 08:11:59.239 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:59.239 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:11:59.240 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Nov 21 08:11:59.241 HYPERVISOR: exec_cmd: vm start R4 
+Nov 21 08:12:19.592 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:12:19.593 HYPERVISOR: exec_cmd: vm get_idle_pc_prop R4 0 
+Nov 21 08:12:29.734 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 21 08:12:29.742 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:12:29.743 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x6059c5a0 
+Nov 21 08:12:29.744 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Nov 21 08:12:32.786 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Nov 21 08:12:32.786 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:12:32.787 HYPERVISOR: exec_cmd: vm set_idle_pc_online R4 0 0x604f5184 
+Nov 21 08:12:32.787 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Nov 21 08:12:35.829 HYPERVISOR: exec_cmd: vm cpu_usage R4 0 
+Nov 21 08:12:35.829 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:12:35.830 HYPERVISOR: exec_cmd: vm stop R4 
+Nov 21 08:12:35.968 VM: VM R4 shutdown.
+Nov 21 08:12:35.969 HYPERVISOR: exec_cmd: vm extract_config R4 
+Nov 21 08:12:39.481 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Nov 21 08:12:39.482 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/leo-phav/GNS3/projects/IR_Lab3/project-files/dynamips/c3640-jk9s-mz.124-16.image-128.ghost 
+Nov 21 08:12:39.483 HYPERVISOR: exec_cmd: vm get_status R4 
+Nov 21 08:12:39.484 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Nov 21 08:12:39.484 HYPERVISOR: exec_cmd: vm start R4 
